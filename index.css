@@ -1,0 +1,198 @@
+.nav-link{
+  margin-left: 40px !important;
+  color:black !important;
+}
+
+.bg-light{
+  color: #fffff !important;
+}
+
+.last{
+    margin-right: 150px !important;
+}
+
+.headsection{
+  background: #68b734;
+  padding: 10px;
+  color:white;
+}
+
+.myimg{
+  width:100%;
+  height:300px;
+}
+.container-fluid{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.left{
+  float:left;
+  margin-left: 50px;
+}
+.right{
+  float:right;
+  margin-right: 170px;
+}
+.clear{
+  clear:both;
+}
+#cryptocurrency{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: minmax(200px, auto);
+
+}
+.cardyb{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: minmax(200px, auto);
+  grid-gap: 1em;
+}
+
+
+.second{
+    background:  #68b734;
+    text-align: justify;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.bgk{
+  background-image: url("./images/hitesh-choudhary-JNxTZzpHmsI-unsplash.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ width:100%;
+ height: 480px;
+}
+
+#contact{
+  background-image: url("./images/a.jpg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ width:100%;
+}
+.crypto{
+  text-align: center;
+  margin:20px 0;
+  font-size: 40px;
+}
+.con{
+  text-align: center;
+  margin:20px 0;
+  font-size: 40px;
+  color:white;
+}
+body{
+  background: #eeeeee;
+}
+
+.formcontainer{
+  width:50%;
+  margin: auto;
+}
+.my{
+  margin: auto;
+  width:50%;
+  color:white;
+  text-align: center;
+  font-size: 30px;
+}
+#about{
+  background: #68b734;
+  color:white;
+}
+p{
+  text-align: justify;
+}
+.mye{
+  font-size: 18px;
+  text-align: left;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+@media (max-width:1194px){
+.second{
+    background:  #68b734;
+    text-align: justify;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+}
+}
+@media (max-width:962px){
+  #cryptocurrency{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(200px, auto);
+  }
+  .formcontainer{
+    width:90% !important;
+    margin: auto !important;
+  }
+  .cardyb{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 1em;
+  }
+  .my{
+    margin: auto;
+    width:50%;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+  }
+  .second{
+      background:  #68b734;
+      text-align: justify;
+      padding: 20px;
+      color: white;
+      font-size: 15px;
+  }
+  .left{
+    float:left;
+    margin-left: 0px;
+  }
+  .right{
+    float:right;
+    margin-right: 0px;
+  }
+  .crypto{
+    text-align: center;
+    margin:20px 0;
+    font-size: 30px;
+  }
+.con{
+  text-align: center;
+  margin:20px 0;
+  font-size: 30px;
+}
+  .bgk{
+    background-image: url("./images/hitesh-choudhary-JNxTZzpHmsI-unsplash.jpg");
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   width:100%;
+   height: 480px;
+  }
+}
